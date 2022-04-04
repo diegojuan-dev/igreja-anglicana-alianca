@@ -1,72 +1,96 @@
-body{
-    background-color: darkturquoise;
+*{
+    margin: 0;
 }
 
-.titulos{
+body{
     text-align: center;
-    width: 500px;
-    height: auto;
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: chartreuse;
+}
+
+h1{
+    color: black;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: blue;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+}
+
+div p{
     margin: 0 auto;
 }
 
-.titulo-principal{
-    color: purple;
-    font-size: 20px;
-}
-
-.titulo-secundario{
-    color: blue;
-    font-size: 20px;
-}
-
 .imagem-1{
-    width: 450px;
+    margin-top: 80px;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
     padding-bottom: 20px;
-    transition: all 0.5s;
-    cursor: pointer;
 }
 
-.imagem-1:hover{
+/* img:hover{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-}
+} */
 
-.imagem-2{
-    width: 450px;
-    padding-bottom: 20px;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-.imagem-2:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.imagem-3{
-    width: 450px;
-    height: 260px;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-
-.imagem-3:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.endereco{
+/* .endereco{
     padding-top: 50px;
     transition: all 0.5s;
     cursor: pointer;
-}
+} */
 
-.endereco:hover{
+/* .endereco:hover{
     color: red;
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+} */
+
+@media only screen and (max-width: 760px) and (min-width: 320px){
+    .imagem-1{
+        margin-top: 50px;
+    }
+
+    img{
+        width: 300px;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    img:hover{
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    h1{
+        font-size: 15px;
+        text-align: center;
+    }
+    p{
+        font-size: 15px;
+        text-align: 15px;
+    }
 }
+
 
