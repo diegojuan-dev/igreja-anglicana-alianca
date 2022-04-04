@@ -1,0 +1,72 @@
+body{
+    background-color: darkturquoise;
+}
+
+.titulos{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    color: purple;
+    font-size: 20px;
+}
+
+.titulo-secundario{
+    color: blue;
+    font-size: 20px;
+}
+
+.imagem-1{
+    width: 450px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem-1:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imagem-2{
+    width: 450px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem-2:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imagem-3{
+    width: 450px;
+    height: 260px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem-3:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.endereco{
+    padding-top: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.endereco:hover{
+    color: red;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
